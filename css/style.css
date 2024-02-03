@@ -87,6 +87,7 @@ address {
   display:flex;
   gap: 40px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color:#404bbf;
 }
 .contacts{
   display: flex;
@@ -119,6 +120,8 @@ address {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 .current{
 position: relative;
@@ -294,6 +297,7 @@ margin-bottom: 8px;
 }
 .main-site-app {
   width: calc((100% - 48px) / 3);
+   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .main-site-apps{
    display: flex;
@@ -367,7 +371,7 @@ footer {
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
-  padding-left: ;
+  
 }
 .site-appss{
   position: relative;
@@ -411,7 +415,8 @@ width: 40px;
 height: 40px;
 
 }
-.link-svg:hover{
+.link-svg:hover,
+.link-svg:focus{
   background-color:#404bbf;
 }
 .icon-svg-li{
@@ -494,6 +499,7 @@ transform: translateY(0);
   display: flex;
    align-items: center; 
    justify-content: center;
+    gap: 16px; 
   
 }
 .footer-ul{
@@ -511,4 +517,7 @@ transform: translateY(0);
   color:#ffffff;
   font-weight: 500;
   margin: 16px;
+  line-height: 1.5;
+   letter-spacing: 0.02em;
+   margin-bottom: 16px;
 }
