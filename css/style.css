@@ -510,7 +510,7 @@ transform: translateY(0);
 .footer-ul{
   display: flex;
    justify-content: center;
-   gap: 24px; 
+    gap: 16px;
    margin: 12px ;
 }
 .footer .container{
