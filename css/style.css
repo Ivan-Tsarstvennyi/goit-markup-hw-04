@@ -119,7 +119,7 @@ address {
   height: 4px;
 }
 
-.link.current { 
+.current { 
   position: relative;
   color: #404BBF;
 }
