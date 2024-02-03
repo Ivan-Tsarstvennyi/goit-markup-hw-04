@@ -164,7 +164,9 @@ color: #404bbf;
   color: #2e2f42;
   
 }
-
+.link-first{
+   color: #404bbf;
+}
 .main {
   background: var(--NAVY-BLUE, #2e2f42);
   
