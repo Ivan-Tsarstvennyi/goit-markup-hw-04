@@ -367,6 +367,7 @@ footer {
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
+  padding-left: ;
 }
 .site-appss{
   position: relative;
@@ -482,9 +483,8 @@ height: 40px;
 transform: translateY(0);
 }
 .footer-container{
-display: flex;
- align-items: baseline;
- margin-right: 120px
+
+ margin-right: 120px;
 }
 .icons-footer .link-svg:hover,
 .icons-footer .link-svg:focus{
@@ -494,4 +494,21 @@ display: flex;
   display: flex;
    align-items: center; 
    justify-content: center;
+  
+}
+.footer-ul{
+  display: flex;
+   justify-content: center;
+   gap: 24px; 
+   margin: 12px ;
+}
+.footer .container{
+  display: flex;
+  align-items: baseline;
+
+}
+.social-media{
+  color:#ffffff;
+  font-weight: 500;
+  margin: 16px;
 }
